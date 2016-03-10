@@ -27,6 +27,7 @@ public class EpidemicRouter extends ActiveRouter {
 	 * @param r The router prototype where setting values are copied from
 	 */
 	protected EpidemicRouter(EpidemicRouter r) {
+             //Hello
 		super(r);
 		//TODO: copy epidemic settings here (if any)
 	}
