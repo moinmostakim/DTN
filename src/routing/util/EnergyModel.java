@@ -164,7 +164,9 @@ public class EnergyModel implements ModuleCommunicationListener {
 	 * host connects (does device discovery)
 	 */
 	public void reduceDiscoveryEnergy() {
-		reduceEnergy(this.scanResponseEnergy);
+	
+            ///Trying to check git works perfectly or not 
+            reduceEnergy(this.scanResponseEnergy);
 	}
 
 	/**
